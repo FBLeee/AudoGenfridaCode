@@ -3,9 +3,11 @@
 
 
 注：只针对新手写hook代码不熟练的。
-本代码是学习以下代码，进行的改动，对java层多参数的函数hook，提高效率，感谢lasting-yang。
-https://github.com/lasting-yang/FridaAutoHook 
+本代码是学习lasting-yang代码，进行的改动，对java层多参数的函数hook，提高效率，感谢lasting-yang。
 
+
+
+# 使用说明
 
 
 针对 genHook.py
@@ -40,4 +42,6 @@ python .\fridaAudoHook.py .\ChatSquareListFrameLayout.smali a
 
 ```
 
+# Thanks
+https://github.com/lasting-yang/FridaAutoHook
 
