@@ -32,7 +32,8 @@ $ frida -U  --no-pause -f packgename -l hook_audo.js
 
 针对 fridaAudoHook.py
 ```
-lasting-yang代码是把指定smali文件中的所有方法全部生成hook代码，此处做了一个微小改动：生成smali中【指定方法名】的hook代码
+lasting-yang代码是把指定smali文件中的所有方法全部生成hook代码，
+此处做了一个微小改动：生成smali中【指定方法名】的hook代码
 
 1.运行脚本，生成hook代码文件——————hook_audoSmail.js
 python fridaAudoHook.py smali文件 具体方法名
