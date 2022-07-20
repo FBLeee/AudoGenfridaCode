@@ -10,7 +10,7 @@
 # 使用说明
 
 
-针对 genHook.py
+## 针对 genHook.py
 ```
 1. 利用反编译工具jadx打开apk，找到需要hook的方法名，复制类名和方法名
  
@@ -30,7 +30,7 @@ $ frida -U  --no-pause -f packgename -l hook_audo.js
 ```
 
 
-针对 fridaAudoHook.py
+## 针对 fridaAudoHook.py
 ```
 lasting-yang代码是把指定smali文件中的所有方法全部生成hook代码，
 此处做了一个微小改动：生成smali中【指定方法名】的hook代码
